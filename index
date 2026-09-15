@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPP — POV Point Pin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="app">
+    <header>
+      <h1>PPP</h1>
+      <p>POV Point Pin</p>
+      <span>Pin it. Preserve it. Route it.</span>
+    </header>
+
+    <section class="capture-card">
+      <label for="pointText">What do you want to pin?</label>
+
+      <textarea
+        id="pointText"
+        placeholder="Paste or type the text, idea, observation, or Point..."
+      ></textarea>
+
+      <label for="sourceUrl">Where did you find it?</label>
+
+      <input
+        id="sourceUrl"
+        type="url"
+        placeholder="https://..."
+      >
+
+      <button id="pinButton">📍 Pin Point</button>
+    </section>
+
+    <section id="result" class="result hidden">
+      <h2>Point Created</h2>
+      <pre id="pointOutput"></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
