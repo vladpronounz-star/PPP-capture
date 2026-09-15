@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f3f4f6;
+}
+
+.app {
+  width: min(720px, 92%);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.3rem;
+}
+
+header span {
+  color: #9ca3af;
+}
+
+.capture-card,
+.result {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 0 0 8px;
+  font-weight: bold;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
+  background: #111827;
+  color: #f3f4f6;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #f3f4f6;
+  color: #111827;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.result h2 {
+  margin-top: 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #111827;
+  padding: 16px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.hidden {
+  display: none;
+}
